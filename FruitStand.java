@@ -95,13 +95,7 @@ public class FruitStand extends JFrame {
         pack();
         setVisible(true);
     } // end constructor
-    /*
-     * This method pops up a little window reporting an internal error.
-     * The window will stay in front of the frame, making it impossible to
-     * interact with the frame, until the user hits the "OK" button. I'm
-     * providing this for your use because we didn't talk much about
-     * JOptionPanes this term.
-     */
+  
     public void errorPopUp() {
         JOptionPane.showMessageDialog(this, "INTERNAL ERROR!");
     } // end errorPopUp
